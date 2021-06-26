@@ -44,7 +44,7 @@
                 <button>Sigh UP</button>
             </form>    </div>
             <div id="add">
-                <button  >ALL POST </button>
+               <a href="bloglist.html" ><button onclick="display()">ALL POST </button></a>
                 <button id="button3" onclick='addpost()'>CREATE POST</button>
             </div>
             <div id=sbox3>
@@ -55,15 +55,16 @@
                     <input type="text" autofocus placeholder="Title" id="title">
                     <label for="text-area">Content:</label>
                     <textarea name="" id="text-area" cols="60" rows="10" placeholder="Content..."></textarea>
-                    
+                    <button onclick="sub()">Submit</button>
             </form>
-            <button onclick="sub()">Submit</button>
+            
             </div>
             
     </div>
 
 
     <script src="index.js"></script>
+    <script src="bloglist.js"></script>
 </body>
 
 </html>
