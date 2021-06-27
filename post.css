@@ -5,19 +5,75 @@
   display: block;
   position: absolute;
   left: 40%;
-  top: 0;
+  top: 32px;
+}
+.postedit {
+  position: relative;
+  height: 100vh;
 }
 .postcontainer {
   position: relative;
   height: 100vh;
 }
-.postedit textarea {
+.texarea {
   position: absolute;
   top: 15%;
   left: 10%;
 }
-.postedit button {
+
+.edi {
   position: absolute;
   right: 11%;
   top: 9%;
+  background-color: rgb(218, 49, 77);
+  color: white;
+  border: 0.5px solid lightgray;
+  box-shadow: 5px 5px lightgray;
+}
+.sep {
+  position: absolute;
+  bottom: 110px;
+  left: 80px;
+  background-color: rgb(218, 49, 77);
+  color: white;
+  border: 0.5px solid lightgray;
+  box-shadow: 5px 5px lightgray;
+}
+.sep1 {
+  position: absolute;
+  bottom: 110px;
+  left: 160px;
+}
+span {
+  position: absolute;
+  bottom: 80px;
+  left: 80px;
+}
+.smallcantainer {
+  height: auto;
+}
+.comment {
+  position: absolute;
+  bottom: 10px;
+  left: 70px;
+}
+.comment-area {
+  height: auto;
+}
+.com {
+  position: absolute;
+  left: 70px;
+  display: block;
+  background-color: rgb(218, 49, 77);
+  color: white;
+  border: 0.5px solid lightgray;
+  box-shadow: 5px 5px lightgray;
+}
+.smallcontainer {
+  display: flex;
+  width: 500px;
+  height: aut0;
+  margin-left: 100px;
+  margin-top: 50px;
+  background-color: white;
 }
