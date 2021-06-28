@@ -107,7 +107,7 @@ span {
     top: 21%;
     left: 5%;
     width: 1411px;
-    height: 370;
+    height: 370px;
   }
   .sep {
     position: absolute;
@@ -126,7 +126,7 @@ span {
   .com {
     position: absolute;
     left: 73px;
-    top: -126;
+    top: -126px;
     display: block;
     background-color: rgb(218, 49, 77);
     color: white;
