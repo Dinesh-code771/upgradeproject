@@ -152,3 +152,38 @@ form button {
   justify-content: center;
   align-items: center;
 }
+@media screen and (min-width: 500px) {
+  #signbutton {
+    position: absolute;
+    right: 5%;
+    top: 5px;
+  }
+  #login {
+    margin: 154px;
+    margin-left: 662px;
+    margin-bottom: 30px;
+    z-index: 1;
+    width: 180px;
+    height: 190px;
+    background-color: rgb(217, 163, 241);
+    padding: 10px;
+  }
+  #sbox3 form {
+    margin: -6px;
+    margin-left: 662px;
+    margin-bottom: 2px;
+    z-index: 1;
+    width: 480px;
+    height: 290px;
+    background-color: rgb(112, 208, 224);
+    padding: 20px;
+  }
+  #add button {
+    margin: 5px;
+    padding: 15px;
+    border: 1px solid grey;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 50px;
+  }
+}
