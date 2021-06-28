@@ -1,4 +1,3 @@
-
 function popup(name,box,cross){
 document.getElementById(name).addEventListener("click", function(){
    
@@ -17,7 +16,7 @@ document.querySelector("."+cross).onclick = function() {
 }
 }
 function login(){
-    document.getElementById("button2").addEventListener("click", function(){
+    document.getElementById("loginbutton").addEventListener("click", function(){
    
         document.getElementById("sbox2").style.display="block";
     })
@@ -41,7 +40,7 @@ function addpost(){
     })
     
     document.querySelector(".close3").onclick = function() {
-        document.getElementById("sbox2").style.display = "none";
+        document.getElementById("sbox3").style.display = "none";
       }
       
       // When the user clicks anywhere outside of the modal, close it
@@ -65,6 +64,4 @@ function sub(){
     
 
 } 
-
-
 
