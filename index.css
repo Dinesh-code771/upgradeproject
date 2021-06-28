@@ -1,38 +1,45 @@
 .container {
   height: 100vh;
- width:100%;
- background-image: url(https://media.istockphoto.com/photos/blue-abstract-background-or-texture-picture-id1138395421?k=6&m=1138395421&s=612x612&w=0&h=bJ1SRWujCgg3QWzkGPgaRiArNYohPl7-Wc4p_Fa_cyA=);
- background-size:cover;
+  background-image: url(https://media.istockphoto.com/photos/blue-abstract-background-or-texture-picture-id1138395421?k=6&m=1138395421&s=612x612&w=0&h=bJ1SRWujCgg3QWzkGPgaRiArNYohPl7-Wc4p_Fa_cyA=);
+  background-size: cover;
+  margin-top: -10px;
 }
-header {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  justify-content: space-between;
+.header {
+  position: relative;
+  height: 20vh;
 }
-header h1 {
-  margin: 1px;
+#signbutton {
+  position: absolute;
+  right: 10%;
+  top: 5px;
+}
+#loginbutton {
+  position: absolute;
+  right: 1%;
+  top: 5px;
+}
+.header h1 {
+  color: white;
+  position: absolute;
+  left: 0;
+  top: 0px;
+  margin-top: 5px;
   font-style: italic;
-  color: white;
 }
-.box {
-  margin-left: 867px;
-}
-header button {
-  background-color: black;
+.header p {
   color: white;
-  padding: 5px;
-  border-radius: 50px;
-  outline: none;
-  cursor: pointer;
- margin: 10px 10px 0px 0px;
-
+  position: absolute;
+  left: 0;
+  top: 40px;
+  margin-top: 5px;
+  font-size: small;
+  font-style: italic;
 }
 .box:nth-of-type(0) {
   align-self: flex-end;
 }
 #add {
-  margin-top: 143px;
+  margin-top: 100px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -56,7 +63,7 @@ label {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
+  padding-top: 50px; /* Location of the box */
   left: 0;
   top: 0;
   width: 100%; /* Full width */
