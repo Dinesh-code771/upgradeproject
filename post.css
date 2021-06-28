@@ -87,22 +87,27 @@ span {
 @media screen and (min-width: 1500px) {
   .edi {
     position: absolute;
-    right: 1%;
-    top: 9%;
+    left: 21%;
+    top: 17%;
     background-color: rgb(218, 49, 77);
     color: white;
     border: 0.5px solid lightgray;
     box-shadow: 5px 5px lightgray;
   }
   .postedit input {
+    left: 46%;
+    top: 61px;
     display: block;
     position: absolute;
-    left: 46%;
-    top: 16px;
+    width: 500px;
+    height: 30px;
   }
-  textarea {
-    columns: 100;
-    rows: 13;
+  .texarea {
+    position: absolute;
+    top: 21%;
+    left: 5%;
+    width: 1411px;
+    height: 370;
   }
   .sep {
     position: absolute;
@@ -121,7 +126,7 @@ span {
   .com {
     position: absolute;
     left: 73px;
-    top: -96;
+    top: -126;
     display: block;
     background-color: rgb(218, 49, 77);
     color: white;
@@ -132,6 +137,8 @@ span {
     position: absolute;
     bottom: 33px;
     left: 70px;
+    width: 706px;
+    height: 75px;
   }
   .smallcontainer {
     display: flex;
