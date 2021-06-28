@@ -152,7 +152,7 @@ form button {
   justify-content: center;
   align-items: center;
 }
-@media screen  (min-width: 1400px) {
+@media screen and (min-width: 500px) {
   #signbutton {
     position: absolute;
     right: 5%;
