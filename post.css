@@ -71,9 +71,75 @@ span {
 }
 .smallcontainer {
   display: flex;
+  flex-direction: column;
   width: 500px;
   height: aut0;
   margin-left: 100px;
   margin-top: 50px;
+  background-color: lightgray;
+}
+#pcomment {
+  display: block;
   background-color: white;
+  padding: 10px 10px;
+  margin: 3px 10px;
+}
+@media screen and (min-width: 1500px) {
+  .edi {
+    position: absolute;
+    right: 1%;
+    top: 9%;
+    background-color: rgb(218, 49, 77);
+    color: white;
+    border: 0.5px solid lightgray;
+    box-shadow: 5px 5px lightgray;
+  }
+  .postedit input {
+    display: block;
+    position: absolute;
+    left: 46%;
+    top: 16px;
+  }
+  textarea {
+    columns: 100;
+    rows: 13;
+  }
+  .sep {
+    position: absolute;
+    bottom: 161px;
+    left: 80px;
+    background-color: rgb(218, 49, 77);
+    color: white;
+    border: 0.5px solid lightgray;
+    box-shadow: 5px 5px lightgray;
+  }
+  span {
+    position: absolute;
+    bottom: 136px;
+    left: 80px;
+  }
+  .com {
+    position: absolute;
+    left: 73px;
+    top: -96;
+    display: block;
+    background-color: rgb(218, 49, 77);
+    color: white;
+    border: 0.5px solid lightgray;
+    box-shadow: 5px 5px lightgray;
+  }
+  .comment {
+    position: absolute;
+    bottom: 33px;
+    left: 70px;
+  }
+  .smallcontainer {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: aut0;
+    margin-left: 100px;
+    margin-top: 10px;
+    background-color: lightgray;
+  }
 }
