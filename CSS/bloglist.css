@@ -1,0 +1,28 @@
+html {
+  background-color: orange;
+}
+/*
+.gridpost {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.gridpost1 {
+  display: grid;
+  grid-template-rows: auto;
+  margin: 40px;
+  border-radius: 25px;
+  padding: 20px;
+  background-color: gainsboro;
+  align-items: center;
+} */
+
+h2 {
+  margin: 0;
+}
+.icon {
+  padding-left: 95%;
+}
+
+.tagline{
+  color: #fff;
+}
