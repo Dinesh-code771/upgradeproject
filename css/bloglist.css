@@ -65,3 +65,51 @@ span img {
   width: 10px;
   height: 10px;
 }
+@media screen and (min-width: 1500px) {
+  #conform {
+    background-color: white;
+    width: 364px;
+    margin-left: 617px;
+    margin-top: 194px;
+  }
+  #conform h6 {
+    margin-left: 21px;
+    font-size: medium;
+    margin-bottom: 37px;
+  }
+  #conform button {
+    margin-right: 70px;
+    margin-bottom: 10px;
+    margin-left: 59px;
+    width: 50px;
+    padding: 2px;
+  }
+  span img {
+    position: absolute;
+    right: 6px;
+    top: 10;
+    width: 14px;
+    height: 12px;
+  }
+  .link {
+    position: absolute;
+    right: 6px;
+    bottom: 6px;
+    color: black;
+  }
+  .stylepost {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+
+    width: auto;
+    height: 151px;
+    background-color: white;
+    width: 258px;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+    overflow: hidden;
+    text-overflow: unset;
+  }
+}
